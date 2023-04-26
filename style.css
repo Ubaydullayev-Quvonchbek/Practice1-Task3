@@ -47,3 +47,11 @@ main:hover .car {
 main .car:hover {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
+
+@media (max-width: 575px) {
+    main {
+        width: 90%;
+        height: 600px;
+        margin: auto;
+    }
+}
